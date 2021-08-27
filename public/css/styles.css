@@ -1,0 +1,80 @@
+.home{
+    background-color:rgba(128, 128, 128, 0.158);
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-header{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-header img{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+}
+.navbar-nav li a{
+    color: gainsboro;
+    border-radius: 50%;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position:absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: gray;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 16px;
+  color: #fff;
+}
+
+.all-post{
+    margin: 30px;
+    width: auto;
+    /* background-color: brown; */
+    height: auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+
+}
+.post{
+    display: flex;
+    flex: 1 0 20%; 
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+    flex-direction: column;
+    background-color:white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.596);
+}
+
+.about-container{
+    background-image:url(../images/goran-ivos-5viOH4hIrIE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    max-width:100%;
+}
